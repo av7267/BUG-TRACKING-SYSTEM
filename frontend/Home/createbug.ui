@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreateItem</class>
+ <widget class="QMainWindow" name="home">
+  <property name="geometry">
+   <rect>
+    <x>100</x>
+    <y>100</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+ <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+
+  <property name="windowTitle">
+   <string>Home Page</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+
+    <!-- Heading -->
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Bug Creation</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <bold>true</bold>
+        <weight>75</weight>
+       </font>
+      </property>
+     </widget>
+    </item>
+
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_itemType">
+        <property name="text">
+         <string>Item Type:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="comboBox_itemType">
+        <property name="minimumWidth">
+         <number>200</number>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_itemStatus">
+        <property name="text">
+         <string>Item Status:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBox_itemStatus">
+        <property name="minimumWidth">
+         <number>200</number>
+        </property>
+        <item><property name="text"><string>yet-to-start</string></property></item>
+        <item><property name="text"><string>in progress</string></property></item>
+        <item><property name="text"><string>completed</string></property></item>
+        <item><property name="text"><string>committed</string></property></item>
+        <item><property name="text"><string>to test</string></property></item>
+        <item><property name="text"><string>reopen</string></property></item>
+        <item><property name="text"><string>close</string></property></item>
+       </widget>
+      </item>
+
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_itemStatus_feature">
+        <property name="text">
+         <string>Feature:</string>
+        </property>
+       </widget>
+      </item>
+
+      <item row="2" column="1">
+      <widget class="QComboBox" name="comboBox_featureType">
+       <property name="minimumWidth">
+        <number>200</number>
+       </property>
+       <item><property name="text"><string>UI</string></property></item>
+       <item><property name="text"><string>Logic</string></property></item>
+       <item><property name="text"><string>Performance</string></property></item>
+       <item><property name="text"><string>Security</string></property></item>
+       <item><property name="text"><string>Other</string></property></item>
+      </widget>
+     </item>
+     
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_description">
+        <property name="text">
+         <string>Description:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="lineEdit_description">
+        <property name="minimumSize">
+         <size>
+          <width>400</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="placeholderText">
+         <string>Add Description</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+
+    <!-- Create and Ok Buttons -->
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_buttons">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Expanding</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="text">
+         <string>Create</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+
+    <!-- Message Label -->
+    <item>
+     <widget class="QLabel" name="label_message">
+      <property name="text">
+       <string></string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: green; font-weight: bold;</string>
+      </property>
+     </widget>
+    </item>
+    </layout>
+   </widget>
+  </widget>
+ <resources/>
+ <connections/>
+</ui>

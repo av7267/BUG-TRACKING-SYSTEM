@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>registrationwindow</class>
+<widget class="QMainWindow" name="registrationwindow">
+  <property name="geometry">
+   <rect>
+    <x>100</x>
+    <y>100</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  
+  <property name="windowTitle">
+   <string>Register</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">
+QLineEdit {
+    min-height: 32px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 64);
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+QLineEdit:focus {
+    border-color: rgba(0, 147, 196, 217);
+}
+QLineEdit:hover {
+    border-color: rgba(0, 0, 0, 102);
+}
+QLineEdit:disabled {
+    border-color: rgba(0, 0, 0, 64);
+    background-color: rgba(255, 255, 255, 128);
+    color: rgba(0, 0, 0, 128);
+}
+    </string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_title">
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+font-size:18px;
+font-weight:bold;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Register User</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QFormLayout" name="formLayout" >
+      <property name="spacing">
+       <number>12</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">QLabel { font-size:16px; }</string>
+        </property>
+        <property name="text">
+         <string>Username</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">QLabel { font-size:16px; }</string>
+        </property>
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Role</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="comboBox">
+
+       <item>
+         <property name="text">
+          <string>Senior Developer</string>
+         </property>
+        </item>
+
+        <item>
+         <property name="text">
+          <string>Developer</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Senior Tester</string>
+         </property>
+        </item>
+
+        <item>
+         <property name="text">
+          <string>Tester</string>
+         </property>
+        </item>
+        
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+font-size:15px
+}</string>
+      </property>
+      <property name="text">
+       <string>Register</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_loginlink">
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextBrowserInteraction</set>
+      </property>
+      <property name="openExternalLinks">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Already have an account? &lt;a href=&quot;login&quot;&gt;Login&lt;/a&gt;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>37</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

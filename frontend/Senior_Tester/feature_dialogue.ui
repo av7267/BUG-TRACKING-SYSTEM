@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FeatureDialog</class>
+ <widget class="QDialog" name="FeatureDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add Feature</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_type">
+       <property name="text">
+        <string>Item Type:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lineEdit_type"/>
+     </item>
+
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_feature_type">
+       <property name="text">
+        <string>Feature Type:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="comboBox_featureType">
+       <property name="minimumWidth">
+        <number>200</number>
+       </property>
+       <item><property name="text"><string>UI</string></property></item>
+       <item><property name="text"><string>Logic</string></property></item>
+       <item><property name="text"><string>Performance</string></property></item>
+       <item><property name="text"><string>Security</string></property></item>
+       <item><property name="text"><string>Other</string></property></item>
+      </widget>
+     </item>
+
+
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_item_status">
+       <property name="text">
+        <string>Item Status:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+     <widget class="QComboBox" name="comboBox_itemStatus">
+        <property name="minimumWidth">
+         <number>200</number>
+        </property>
+        <item><property name="text"><string>yet-to-start</string></property></item>
+        <item><property name="text"><string>in progress</string></property></item>
+        <item><property name="text"><string>completed</string></property></item>
+        <item><property name="text"><string>committed</string></property></item>
+        <item><property name="text"><string>to test</string></property></item>
+        <item><property name="text"><string>reopen</string></property></item>
+        <item><property name="text"><string>close</string></property></item>
+      </widget>
+     </item>
+
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_description">
+       <property name="text">
+        <string>Description:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QTextEdit" name="lineEdit_description">
+       <property name="minimumSize">
+        <size>
+         <width>400</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="placeholderText">
+         <string>Add Description</string>
+        </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
