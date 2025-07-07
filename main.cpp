@@ -8,23 +8,22 @@ class user_routes{
 public:
     static void setup(crow::SimpleApp& app, database&db) {
         CROW_ROUTE(app,"/register").methods("POST"_method)
-        ([&db] (const crow::request& req) {
-            auto jsonData = crow::json::load(req.body);
+            ([&db] (const crow::request& req) {
+                auto jsonData = crow::json::load(req.body);
+                if (!jsonData) return crow::response(400,"Invalid JSON payload");
 
-            if (!jsonData) return crow::response(400,"Invalid JSON payload");
+                string username = jsonData["username"].s();
+                string password = jsonData["password"].s();
+                string role = jsonData["role"].s();
 
-            string username = jsonData["username"].s();
-            string password = jsonData["password"].s();
-            string role = jsonData["role"].s();
+                string query = "INSERT INTO users (username, password, role) VALUES ('" + username + "', '" + password + "', '" + role + "');";
 
-            string query = "INSERT INTO users (username, password, role) VALUES ('" + username + "', '" + password + "', '" + role + "');";
+                if (mysql_query(db.conn, query.c_str())) {
+                    return crow::response(500, mysql_error(db.conn));
+                }
 
-            if (mysql_query(db.conn, query.c_str())) {
-                return crow::response(500, mysql_error(db.conn));
-            }
-
-            return crow::response(200,"user creation successful");
-        });
+                return crow::response(200,"user creation successful");
+            });
                
         CROW_ROUTE(app,"/login").methods("POST"_method)
         ([&db] (const crow::request& req) {

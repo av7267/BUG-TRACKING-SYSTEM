@@ -1,0 +1,33 @@
+# Ignore external Crow library
+crow/
+
+# Ignore frontend build output
+frontend/build/
+
+# macOS system files
+.DS_Store
+
+# Qt build files
+*.user
+*.pro.user
+*.creator*
+*.autosave
+*.qbs
+*.qmake.stash
+
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.a
+*.class
+
+# Logs
+*.log
+
+# Python virtual environments (if used)
+venv/

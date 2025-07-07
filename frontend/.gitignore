@@ -1,0 +1,22 @@
+
+
+# Build folders
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Qt & C++ build outputs
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+
+# Qt Creator & VS Code
+*.user
+*.pro.user
+.vscode/
+*.DS_Store
