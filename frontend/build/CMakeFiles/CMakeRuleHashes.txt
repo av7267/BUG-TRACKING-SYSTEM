@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-773e08b860a148827c35a6512fb3f146 BugTracking_autogen/timestamp
-aad2173066a62497085cbd468cfcfe55 CMakeFiles/BugTracking_autogen
