@@ -43,7 +43,7 @@ void registrationwindow::handleregister() {
     QJsonObject json;
     json["username"] = username;
     json["password"] = password;
-    json["role"] = role.toLower();
+    json["role"] = role;
 
     
     QUrl url("http://172.30.1.56:18080/register");
@@ -53,24 +53,29 @@ void registrationwindow::handleregister() {
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
 
     QNetworkReply *reply = manager->post(request, QJsonDocument(json).toJson());
-    
+
     connect(reply, &QNetworkReply::finished, this, [=]() {
-        QString responseText = reply->readAll();
-        QMessageBox::information(this, "Server Response", responseText);
+        if (reply->error() == QNetworkReply::NoError) {
+            QString responseText = reply->readAll();
+            QMessageBox::information(this, "Success", responseText);
+            
+            QWidget *homeWindow = nullptr;
+            if (role == "Senior Tester") {
+                homeWindow = new SeniorTesterWindow();
+            } else if (role == "Senior Developer") {
+                homeWindow = new ActivityWindow(0); 
+            }
+
+            if (homeWindow) {
+                homeWindow->setAttribute(Qt::WA_DeleteOnClose);
+                homeWindow->show();
+                this->close();
+            }
+        } else {
+            QMessageBox::critical(this, "Error", reply->errorString());
+        }
+
         reply->deleteLater();
-
-        QWidget *homeWindow = nullptr;
-        if (role == "Senior Tester") {
-            homeWindow = new SeniorTesterWindow();
-        } else if (role == "Senior Developer") {
-            homeWindow = new ActivityWindow(0); 
-        }
-
-        if (homeWindow) {
-            homeWindow->setAttribute(Qt::WA_DeleteOnClose);
-            homeWindow->show();
-            this->close();
-        }
     });
 }
 
