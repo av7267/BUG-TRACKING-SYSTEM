@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "name": "Mac",
+      "includePath": [
+          "/usr/local/mysql-9.3.0-macos15-arm64/include",
+          "/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Versions/A/Headers",
+          "/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers",
+          "/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers",
+          "/Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Versions/A/Headers",
+          "/Users/arnav/asio-master/asio/include",
+          "${workspaceFolder}/**"
+        ],
+      "defines": [],
+      "macFrameworkPath": [
+        "/System/Library/Frameworks",
+        "/Library/Frameworks",
+        "/Users/arnav/Qt/6.9.0/macos/lib"
+      ],
+      "compilerPath": "/usr/bin/clang++",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-arm64"
+    }
+  ],
+  "version": 4
+}

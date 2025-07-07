@@ -1,5 +1,5 @@
 CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.cpp \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMessageBox \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -1025,11 +1025,11 @@ CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/QStandardItemModel \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qstandarditemmodel.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/QStandardItem \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/../Senior_Tester/s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/../Senior_Tester/s_tester.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/include/ui_feature_dialogue.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/include/ui_feature_dialogue.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QAbstractButton \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QApplication \
@@ -1081,7 +1081,7 @@ CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtextedit.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractscrollarea.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/include/ui_s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/include/ui_s_tester.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QHBoxLayout \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QHeaderView \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qheaderview.h \
@@ -1093,5 +1093,5 @@ CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QTableView \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtableview.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QWidget \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/include/ui_assign_dialogue.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/../Home/home_window.h
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/include/ui_assign_dialogue.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/../Home/home_window.h

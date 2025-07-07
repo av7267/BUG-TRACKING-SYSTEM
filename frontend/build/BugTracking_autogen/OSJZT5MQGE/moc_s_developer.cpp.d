@@ -1,5 +1,5 @@
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/OSJZT5MQGE/moc_s_developer.cpp: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/moc_predefs.h \
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/OSJZT5MQGE/moc_s_developer.cpp: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \

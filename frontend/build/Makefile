@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend"
+CMAKE_SOURCE_DIR = "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build"
+CMAKE_BINARY_DIR = "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

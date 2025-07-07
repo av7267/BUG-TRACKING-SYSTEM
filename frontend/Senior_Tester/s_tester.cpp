@@ -1,4 +1,4 @@
-#include <QMessageBox>
+#include <QtWidgets/QMessageBox>
 #include <QNetworkRequest>
 #include <QNetworkReply>
 #include <QJsonObject>
@@ -176,6 +176,7 @@ void SeniorTesterWindow::fetchBugs()
 
             
             ui->tableView->setModel(model);
+            ui->tableView->setEditTriggers(QAbstractItemView::DoubleClicked | QAbstractItemView::SelectedClicked);
             disconnect(ui->tableView->selectionModel(), nullptr, this, nullptr);
             connect(ui->tableView->selectionModel(), &QItemSelectionModel::currentChanged,
                     this, &SeniorTesterWindow::handleselection);

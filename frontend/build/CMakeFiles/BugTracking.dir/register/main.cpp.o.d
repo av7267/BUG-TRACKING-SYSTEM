@@ -1,5 +1,5 @@
 CMakeFiles/BugTracking.dir/register/main.cpp.o: \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/main.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/main.cpp \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -968,7 +968,7 @@ CMakeFiles/BugTracking.dir/register/main.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qhash.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration_window.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \

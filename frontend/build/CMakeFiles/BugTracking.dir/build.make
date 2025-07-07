@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend"
+CMAKE_SOURCE_DIR = "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build"
+CMAKE_BINARY_DIR = "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BugTracking.dir/depend.make
@@ -72,114 +72,114 @@ include CMakeFiles/BugTracking.dir/flags.make
 BugTracking_autogen/timestamp: /Users/arnav/Qt/6.9.0/macos/libexec/moc
 BugTracking_autogen/timestamp: /Users/arnav/Qt/6.9.0/macos/libexec/uic
 BugTracking_autogen/timestamp: CMakeFiles/BugTracking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target BugTracking"
-	/opt/homebrew/bin/cmake -E cmake_autogen "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles/BugTracking_autogen.dir/AutogenInfo.json" ""
-	/opt/homebrew/bin/cmake -E touch "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/BugTracking_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target BugTracking"
+	/opt/homebrew/bin/cmake -E cmake_autogen "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles/BugTracking_autogen.dir/AutogenInfo.json" ""
+	/opt/homebrew/bin/cmake -E touch "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/timestamp"
 
 CMakeFiles/BugTracking.dir/codegen:
 .PHONY : CMakeFiles/BugTracking.dir/codegen
 
-BugTracking.app/Contents/Resources/Bug.icns: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/icons/Bug.icns
+BugTracking.app/Contents/Resources/Bug.icns: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/icons/Bug.icns
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Copying OS X content BugTracking.app/Contents/Resources/Bug.icns"
-	$(CMAKE_COMMAND) -E copy "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/icons/Bug.icns" BugTracking.app/Contents/Resources/Bug.icns
+	$(CMAKE_COMMAND) -E copy "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/icons/Bug.icns" BugTracking.app/Contents/Resources/Bug.icns
 
 CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o: CMakeFiles/BugTracking.dir/flags.make
 CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o: BugTracking_autogen/mocs_compilation.cpp
 CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o: CMakeFiles/BugTracking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o -MF CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o -c "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/BugTracking_autogen/mocs_compilation.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o -MF CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o -c "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/mocs_compilation.cpp"
 
 CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/BugTracking_autogen/mocs_compilation.cpp" > CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/mocs_compilation.cpp" > CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/BugTracking_autogen/mocs_compilation.cpp" -o CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/mocs_compilation.cpp" -o CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/BugTracking.dir/login/login.cpp.o: CMakeFiles/BugTracking.dir/flags.make
-CMakeFiles/BugTracking.dir/login/login.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login.cpp
+CMakeFiles/BugTracking.dir/login/login.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login.cpp
 CMakeFiles/BugTracking.dir/login/login.cpp.o: CMakeFiles/BugTracking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BugTracking.dir/login/login.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/login/login.cpp.o -MF CMakeFiles/BugTracking.dir/login/login.cpp.o.d -o CMakeFiles/BugTracking.dir/login/login.cpp.o -c "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/login/login.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BugTracking.dir/login/login.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/login/login.cpp.o -MF CMakeFiles/BugTracking.dir/login/login.cpp.o.d -o CMakeFiles/BugTracking.dir/login/login.cpp.o -c "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/login/login.cpp"
 
 CMakeFiles/BugTracking.dir/login/login.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BugTracking.dir/login/login.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/login/login.cpp" > CMakeFiles/BugTracking.dir/login/login.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/login/login.cpp" > CMakeFiles/BugTracking.dir/login/login.cpp.i
 
 CMakeFiles/BugTracking.dir/login/login.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BugTracking.dir/login/login.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/login/login.cpp" -o CMakeFiles/BugTracking.dir/login/login.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/login/login.cpp" -o CMakeFiles/BugTracking.dir/login/login.cpp.s
 
 CMakeFiles/BugTracking.dir/register/main.cpp.o: CMakeFiles/BugTracking.dir/flags.make
-CMakeFiles/BugTracking.dir/register/main.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/main.cpp
+CMakeFiles/BugTracking.dir/register/main.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/main.cpp
 CMakeFiles/BugTracking.dir/register/main.cpp.o: CMakeFiles/BugTracking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BugTracking.dir/register/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/register/main.cpp.o -MF CMakeFiles/BugTracking.dir/register/main.cpp.o.d -o CMakeFiles/BugTracking.dir/register/main.cpp.o -c "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/register/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BugTracking.dir/register/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/register/main.cpp.o -MF CMakeFiles/BugTracking.dir/register/main.cpp.o.d -o CMakeFiles/BugTracking.dir/register/main.cpp.o -c "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/register/main.cpp"
 
 CMakeFiles/BugTracking.dir/register/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BugTracking.dir/register/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/register/main.cpp" > CMakeFiles/BugTracking.dir/register/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/register/main.cpp" > CMakeFiles/BugTracking.dir/register/main.cpp.i
 
 CMakeFiles/BugTracking.dir/register/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BugTracking.dir/register/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/register/main.cpp" -o CMakeFiles/BugTracking.dir/register/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/register/main.cpp" -o CMakeFiles/BugTracking.dir/register/main.cpp.s
 
 CMakeFiles/BugTracking.dir/register/registration.cpp.o: CMakeFiles/BugTracking.dir/flags.make
-CMakeFiles/BugTracking.dir/register/registration.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration.cpp
+CMakeFiles/BugTracking.dir/register/registration.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration.cpp
 CMakeFiles/BugTracking.dir/register/registration.cpp.o: CMakeFiles/BugTracking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BugTracking.dir/register/registration.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/register/registration.cpp.o -MF CMakeFiles/BugTracking.dir/register/registration.cpp.o.d -o CMakeFiles/BugTracking.dir/register/registration.cpp.o -c "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/register/registration.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BugTracking.dir/register/registration.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/register/registration.cpp.o -MF CMakeFiles/BugTracking.dir/register/registration.cpp.o.d -o CMakeFiles/BugTracking.dir/register/registration.cpp.o -c "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/register/registration.cpp"
 
 CMakeFiles/BugTracking.dir/register/registration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BugTracking.dir/register/registration.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/register/registration.cpp" > CMakeFiles/BugTracking.dir/register/registration.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/register/registration.cpp" > CMakeFiles/BugTracking.dir/register/registration.cpp.i
 
 CMakeFiles/BugTracking.dir/register/registration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BugTracking.dir/register/registration.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/register/registration.cpp" -o CMakeFiles/BugTracking.dir/register/registration.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/register/registration.cpp" -o CMakeFiles/BugTracking.dir/register/registration.cpp.s
 
 CMakeFiles/BugTracking.dir/Home/home.cpp.o: CMakeFiles/BugTracking.dir/flags.make
-CMakeFiles/BugTracking.dir/Home/home.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home.cpp
+CMakeFiles/BugTracking.dir/Home/home.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home.cpp
 CMakeFiles/BugTracking.dir/Home/home.cpp.o: CMakeFiles/BugTracking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BugTracking.dir/Home/home.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/Home/home.cpp.o -MF CMakeFiles/BugTracking.dir/Home/home.cpp.o.d -o CMakeFiles/BugTracking.dir/Home/home.cpp.o -c "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/Home/home.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BugTracking.dir/Home/home.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/Home/home.cpp.o -MF CMakeFiles/BugTracking.dir/Home/home.cpp.o.d -o CMakeFiles/BugTracking.dir/Home/home.cpp.o -c "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/Home/home.cpp"
 
 CMakeFiles/BugTracking.dir/Home/home.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BugTracking.dir/Home/home.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/Home/home.cpp" > CMakeFiles/BugTracking.dir/Home/home.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/Home/home.cpp" > CMakeFiles/BugTracking.dir/Home/home.cpp.i
 
 CMakeFiles/BugTracking.dir/Home/home.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BugTracking.dir/Home/home.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/Home/home.cpp" -o CMakeFiles/BugTracking.dir/Home/home.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/Home/home.cpp" -o CMakeFiles/BugTracking.dir/Home/home.cpp.s
 
 CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: CMakeFiles/BugTracking.dir/flags.make
-CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.cpp
+CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.cpp
 CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: CMakeFiles/BugTracking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o -MF CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o.d -o CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o -c "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/Senior_developer/s_developer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o -MF CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o.d -o CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o -c "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.cpp"
 
 CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/Senior_developer/s_developer.cpp" > CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.cpp" > CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.i
 
 CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/Senior_developer/s_developer.cpp" -o CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.cpp" -o CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.s
 
 CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: CMakeFiles/BugTracking.dir/flags.make
-CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.cpp
+CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.cpp
 CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: CMakeFiles/BugTracking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o -MF CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o.d -o CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o -c "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/Senior_Tester/s_tester.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o -MF CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o.d -o CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o -c "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.cpp"
 
 CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/Senior_Tester/s_tester.cpp" > CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.cpp" > CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.i
 
 CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/Senior_Tester/s_tester.cpp" -o CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.cpp" -o CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.s
 
 # Object files for target BugTracking
 BugTracking_OBJECTS = \
@@ -207,7 +207,7 @@ BugTracking.app/Contents/MacOS/BugTracking: /Users/arnav/Qt/6.9.0/macos/lib/QtNe
 BugTracking.app/Contents/MacOS/BugTracking: /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/QtGui
 BugTracking.app/Contents/MacOS/BugTracking: /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/QtCore
 BugTracking.app/Contents/MacOS/BugTracking: CMakeFiles/BugTracking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable BugTracking.app/Contents/MacOS/BugTracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable BugTracking.app/Contents/MacOS/BugTracking"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BugTracking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -220,6 +220,6 @@ CMakeFiles/BugTracking.dir/clean:
 .PHONY : CMakeFiles/BugTracking.dir/clean
 
 CMakeFiles/BugTracking.dir/depend: BugTracking_autogen/timestamp
-	cd "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles/BugTracking.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles/BugTracking.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/BugTracking.dir/depend
 

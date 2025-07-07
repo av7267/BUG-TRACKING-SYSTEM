@@ -1,6 +1,6 @@
 CMakeFiles/BugTracking.dir/register/registration.cpp.o: \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration_window.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -1028,9 +1028,9 @@ CMakeFiles/BugTracking.dir/register/registration.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QPushButton \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/../login/login_window.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/../Home/home_window.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/include/ui_registration.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/../login/login_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/../Home/home_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/include/ui_registration.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
@@ -1077,7 +1077,7 @@ CMakeFiles/BugTracking.dir/register/registration.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qstatusbar.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QWidget \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/../Senior_Tester/s_tester.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/../Senior_developer/s_developer.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/../Senior_Tester/s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/../Senior_developer/s_developer.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/QStandardItem \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qstandarditemmodel.h

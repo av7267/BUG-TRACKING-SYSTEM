@@ -206,7 +206,7 @@ public:
             }
         });
 
-        CROW_ROUTE(app, "/api/seniordevelopers").methods("GET"_method)([&db](const crow::request& req) {
+        CROW_ROUTE(app, "/api/seniordevelopers").methods("GET"_method)([&db](const crow::request& req) {  //fetch the senior developers in the assign box
             string query = "SELECT user_id, username FROM users WHERE role = 'Senior Developer';";
 
             if (mysql_query(db.conn, query.c_str()) != 0) {
@@ -235,7 +235,7 @@ public:
             return crow::response(result);
         });
         
-        CROW_ROUTE(app,"/api/assign").methods("POST"_method)([&db](const crow::request& req){
+        CROW_ROUTE(app,"/api/assign").methods("POST"_method)([&db](const crow::request& req){ //assign to seniordevelopers by testers
             auto jsonData = crow::json::load(req.body);
             if (!jsonData) {
                 return crow::response(400, "Invalid JSON");
@@ -298,8 +298,8 @@ int main() {
     crow::SimpleApp app;
 
     database db("127.0.0.1", "root", "arnav@123", 3306);
-    db.createdatabase("users");
-    db.selectdatabase("users");
+    db.createdatabase("bugtracker");
+    db.selectdatabase("bugtracker");
 
     UserManager::usertable(db);
     ItemManager::itemtypetable(db);

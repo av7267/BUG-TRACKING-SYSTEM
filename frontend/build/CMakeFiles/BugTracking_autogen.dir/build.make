@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend"
+CMAKE_SOURCE_DIR = "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build"
+CMAKE_BINARY_DIR = "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build"
 
 # Utility rule file for BugTracking_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/BugTracking_autogen: BugTracking_autogen/timestamp
 BugTracking_autogen/timestamp: /Users/arnav/Qt/6.9.0/macos/libexec/moc
 BugTracking_autogen/timestamp: /Users/arnav/Qt/6.9.0/macos/libexec/uic
 BugTracking_autogen/timestamp: CMakeFiles/BugTracking_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target BugTracking"
-	/opt/homebrew/bin/cmake -E cmake_autogen "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles/BugTracking_autogen.dir/AutogenInfo.json" ""
-	/opt/homebrew/bin/cmake -E touch "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/BugTracking_autogen/timestamp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target BugTracking"
+	/opt/homebrew/bin/cmake -E cmake_autogen "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles/BugTracking_autogen.dir/AutogenInfo.json" ""
+	/opt/homebrew/bin/cmake -E touch "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/timestamp"
 
 CMakeFiles/BugTracking_autogen.dir/codegen:
 .PHONY : CMakeFiles/BugTracking_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/BugTracking_autogen.dir/clean:
 .PHONY : CMakeFiles/BugTracking_autogen.dir/clean
 
 CMakeFiles/BugTracking_autogen.dir/depend:
-	cd "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build" "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles/BugTracking_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build" "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles/BugTracking_autogen.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/BugTracking_autogen.dir/depend
 

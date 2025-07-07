@@ -1,6 +1,6 @@
 CMakeFiles/BugTracking.dir/Home/home.cpp.o: \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home_window.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -1002,7 +1002,7 @@ CMakeFiles/BugTracking.dir/Home/home.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/QSslPreSharedKeyAuthenticator \
   /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qsslpresharedkeyauthenticator.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QMetaType \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/include/ui_createbug.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/include/ui_createbug.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
@@ -1074,7 +1074,7 @@ CMakeFiles/BugTracking.dir/Home/home.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QJsonDocument \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QJsonArray \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsonarray.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/../Senior_Tester/s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/../Senior_Tester/s_tester.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/QCloseEvent \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qevent.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qeventpoint.h \

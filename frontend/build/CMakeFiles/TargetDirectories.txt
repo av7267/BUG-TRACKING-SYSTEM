@@ -1,5 +1,5 @@
-/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles/BugTracking.dir
-/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles/edit_cache.dir
-/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles/rebuild_cache.dir
-/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles/BugTracking_autogen_timestamp_deps.dir
-/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles/BugTracking_autogen.dir
+/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles/BugTracking.dir
+/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles/edit_cache.dir
+/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles/rebuild_cache.dir
+/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles/BugTracking_autogen_timestamp_deps.dir
+/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles/BugTracking_autogen.dir

@@ -3,38 +3,34 @@
 
 #include <mysql.h>
 #include <string>
-#include <stdexcept>
 
 using namespace std;
 
 class database {
 public:
     MYSQL* conn;
-
-    database(const char* host, const char* user, const char* password, unsigned int port);
-    void createdatabase(const string& dbName);
-    void selectdatabase(const string& dbName);
-    void executeQuery(const string& query);
+    database(const char*, const char*, const char*, unsigned int);
+    void createdatabase(const string&);
+    void selectdatabase(const string&);
+    void executeQuery(const string&);
     ~database();
 };
 
 class UserManager {
 public:
-    static void usertable(database& db);
+    static void usertable(database&);
 };
 
 class ItemManager {
 public:
-    static void itemtypetable(database& db);
-    static void insertitemtype(database& db);
-    static void itemdescriptiontable(database& db);
-    
+    static void itemtypetable(database&);
+    static void insertitemtype(database&);
+    static void itemdescriptiontable(database&);
 };
 
-class AssignTables{
+class AssignTables {
 public:
-    static void seniordeveloperassign(database& db);
-    static void developerassign(database& db);
+    static void seniordeveloperassign(database&);
 };
 
 #endif

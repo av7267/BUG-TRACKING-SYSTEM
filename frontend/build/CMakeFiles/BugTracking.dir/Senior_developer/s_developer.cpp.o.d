@@ -1,5 +1,5 @@
 CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.cpp \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/QStandardItemModel \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qstandarditemmodel.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
@@ -958,7 +958,7 @@ CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QUrlQuery \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qurlquery.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qurl.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -1029,7 +1029,7 @@ CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QJsonDocument \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QJsonArray \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsonarray.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/include/ui_s_developer.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/include/ui_s_developer.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
@@ -1078,7 +1078,7 @@ CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtableview.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QWidget \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/include/ui_dialogue.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/include/ui_dialogue.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QAbstractButton \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QDialog \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QDialogButtonBox \

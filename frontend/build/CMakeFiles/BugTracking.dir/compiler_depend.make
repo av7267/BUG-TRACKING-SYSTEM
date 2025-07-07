@@ -728,30 +728,30 @@ BugTracking_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfo
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_va_list.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/CMakeLists.txt \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/createbug.ui \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home_window.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/assign_dialogue.ui \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/feature_dialogue.ui \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.ui \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/dialogue.ui \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.ui \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/CMakeLists.txt \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/createbug.ui \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/assign_dialogue.ui \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/feature_dialogue.ui \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.ui \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/dialogue.ui \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.ui \
   BugTracking_autogen/moc_predefs.h \
   CMakeFiles/4.0.2/CMakeCCompiler.cmake \
   CMakeFiles/4.0.2/CMakeCXXCompiler.cmake \
   CMakeFiles/4.0.2/CMakeSystem.cmake \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login.ui \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login_window.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/main.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration.ui \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login.ui \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/main.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration.ui \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration_window.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/QFlags \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/QIODevice \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
@@ -1192,26 +1192,100 @@ BugTracking_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfo
   /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
   /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
   /opt/homebrew/bin/cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeCCompiler.cmake.in \
+  /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c \
   /opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
+  /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeSystem.cmake.in \
   /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
+  /opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake \
   /opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake \
   /opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
   /opt/homebrew/share/cmake/Modules/CheckIncludeFile.cmake \
   /opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-C.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  /opt/homebrew/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /opt/homebrew/share/cmake/Modules/FindOpenGL.cmake \
   /opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake \
@@ -1220,9 +1294,13 @@ BugTracking_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfo
   /opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
+  /opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
+  /opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake \
+  /opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+  /opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /opt/homebrew/share/cmake/Modules/Linker/AppleClang-C.cmake \
   /opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake \
   /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake \
@@ -1232,6 +1310,7 @@ BugTracking_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platfo
   /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-C.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake \
+  /opt/homebrew/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake \
   /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake \
@@ -2050,15 +2129,15 @@ CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o: BugTracki
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login_window.h \
   BugTracking_autogen/7UJL7PXKVV/moc_login_window.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.h \
   BugTracking_autogen/OSJZT5MQGE/moc_s_developer.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration_window.h \
   BugTracking_autogen/VXPGVDKWWK/moc_registration_window.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.h \
   BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home_window.h \
   BugTracking_autogen/X2ZTF664SI/moc_home_window.cpp \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QFlags \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QIODevice \
@@ -2264,7 +2343,7 @@ CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o: BugTracki
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qwidget.h
 
-CMakeFiles/BugTracking.dir/Home/home.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home.cpp \
+CMakeFiles/BugTracking.dir/Home/home.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -3075,8 +3154,8 @@ CMakeFiles/BugTracking.dir/Home/home.cpp.o: /Users/arnav/Documents/Amrita/semest
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home_window.h \
   BugTracking_autogen/include/ui_createbug.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QFlags \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QIODevice \
@@ -3354,7 +3433,7 @@ CMakeFiles/BugTracking.dir/Home/home.cpp.o: /Users/arnav/Documents/Amrita/semest
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qwidget.h
 
-CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.cpp \
+CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -4165,8 +4244,8 @@ CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: /Users/arnav/Documents/
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home_window.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.h \
   BugTracking_autogen/include/ui_assign_dialogue.h \
   BugTracking_autogen/include/ui_feature_dialogue.h \
   BugTracking_autogen/include/ui_s_tester.h \
@@ -4451,7 +4530,7 @@ CMakeFiles/BugTracking.dir/Senior_Tester/s_tester.cpp.o: /Users/arnav/Documents/
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qwidget.h
 
-CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.cpp \
+CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -5262,7 +5341,7 @@ CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: /Users/arnav/Docu
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.h \
   BugTracking_autogen/include/ui_dialogue.h \
   BugTracking_autogen/include/ui_s_developer.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QAbstractItemModel \
@@ -5538,7 +5617,7 @@ CMakeFiles/BugTracking.dir/Senior_developer/s_developer.cpp.o: /Users/arnav/Docu
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qwidget.h
 
-CMakeFiles/BugTracking.dir/login/login.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login.cpp \
+CMakeFiles/BugTracking.dir/login/login.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -6350,10 +6429,10 @@ CMakeFiles/BugTracking.dir/login/login.cpp.o: /Users/arnav/Documents/Amrita/seme
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
   BugTracking_autogen/include/ui_login.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration_window.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login_window.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QFlags \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QIODevice \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QJsonDocument \
@@ -6617,7 +6696,7 @@ CMakeFiles/BugTracking.dir/login/login.cpp.o: /Users/arnav/Documents/Amrita/seme
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qwidget.h
 
-CMakeFiles/BugTracking.dir/register/main.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/main.cpp \
+CMakeFiles/BugTracking.dir/register/main.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -7428,7 +7507,7 @@ CMakeFiles/BugTracking.dir/register/main.cpp.o: /Users/arnav/Documents/Amrita/se
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration_window.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QDebug \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QFlags \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QList \
@@ -7636,7 +7715,7 @@ CMakeFiles/BugTracking.dir/register/main.cpp.o: /Users/arnav/Documents/Amrita/se
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qwidget.h
 
-CMakeFiles/BugTracking.dir/register/registration.cpp.o: /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration.cpp \
+CMakeFiles/BugTracking.dir/register/registration.cpp.o: /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -8448,11 +8527,11 @@ CMakeFiles/BugTracking.dir/register/registration.cpp.o: /Users/arnav/Documents/A
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h \
   BugTracking_autogen/include/ui_registration.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home_window.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login_window.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration_window.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QFlags \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QIODevice \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QJsonDocument \
@@ -8768,15 +8847,21 @@ BugTracking_autogen/include/ui_assign_dialogue.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qframe.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qdialog.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qapplication.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractslider.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QWidget:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QSpacerItem:
 
@@ -8784,67 +8869,87 @@ BugTracking_autogen/include/ui_assign_dialogue.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QLineEdit:
 
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QLabel:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QHBoxLayout:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QFormLayout:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QApplication:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qvectornd.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qvector2d.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qvalidator.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qpicture.h:
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qtextdocument.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qtextcursor.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qscreen_platform.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qscreen.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qpointingdevice.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qpen.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h:
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qinputdevice.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h:
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qguiapplication.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qevent.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h:
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/quuid.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h:
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qregularexpression.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h:
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsonvalue.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcoreevent.h:
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsonparseerror.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsonobject.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsondocument.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsonarray.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtextedit.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qeventloop.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qelapsedtimer.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcborcommon.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/feature_dialogue.ui:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qbasictimer.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qabstracteventdispatcher.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QSizeF:
 
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QSize:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QRect:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QJsonObject:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bit:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QJsonArray:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QHBoxLayout:
-
-/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
-
-BugTracking_autogen/include/ui_createbug.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qwidget.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h:
 
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h:
 
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qtnetworkglobal.h:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qtnetworkexports.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qtcpsocket.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qsslpresharedkeyauthenticator.h:
 
@@ -8928,8 +9033,6 @@ CMakeFiles/4.0.2/CMakeCCompiler.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qstringalgorithms.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsonobject.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qstring.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h:
@@ -8940,9 +9043,9 @@ CMakeFiles/4.0.2/CMakeCCompiler.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qsize.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qsharedpointer_impl.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qsharedpointer.h:
+
+/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qshareddata_impl.h:
 
@@ -8963,6 +9066,8 @@ CMakeFiles/4.0.2/CMakeCCompiler.cmake:
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qrefcount.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qrect.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qoverload.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/vector:
 
@@ -9042,13 +9147,9 @@ CMakeFiles/4.0.2/CMakeCCompiler.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qbytearraylist.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qtextcursor.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/version:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qbytearrayalgorithms.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qatomic.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_signed.h:
 
@@ -9068,10 +9169,6 @@ CMakeFiles/4.0.2/CMakeCCompiler.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/q23type_traits.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/q20type_traits.h:
@@ -9085,8 +9182,6 @@ CMakeFiles/4.0.2/CMakeCCompiler.cmake:
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qnetworkreply.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QFlags:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsonparseerror.h:
 
 BugTracking_autogen/OSJZT5MQGE/moc_s_developer.cpp:
 
@@ -9112,17 +9207,21 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_size_t.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qsizepolicy.h:
-
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_ptrdiff_t.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcompare_impl.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_nullptr_t.h:
 
+/opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wchar.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/signal.h:
 
@@ -9132,9 +9231,9 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qfontvariableaxis.h:
+/opt/homebrew/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
 
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/dialogue.ui:
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qfontvariableaxis.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h:
 
@@ -9166,9 +9265,11 @@ CMakeFiles/4.0.2/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/signal.h:
 
+/opt/homebrew/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/limits.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/arm/_structs.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/locale.h:
 
@@ -9210,10 +9311,6 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/memory_order.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdlib.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_abort.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qstringliteral.h:
@@ -9240,6 +9337,8 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractitemview.h:
 
+/opt/homebrew/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake:
+
 /opt/homebrew/share/cmake/Modules/MacroAddFileDependencies.cmake:
 
 /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake:
@@ -9247,6 +9346,12 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 /opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
 
 /opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qsharedpointer_impl.h:
+
+/opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake:
+
+/opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake:
 
 /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake:
 
@@ -9260,15 +9365,99 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /opt/homebrew/share/cmake/Modules/FindThreads.cmake:
 
+/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qtdeprecationmarkers.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qpixmap.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qarraydata.h:
 
 /opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
 
-/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/pair.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qfontvariableaxis.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
 
 /opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/memory_order.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_stdlib.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qatomic.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_same.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
+
 /opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateVersionlessAliasTargets.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/invoke.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h:
 
@@ -9278,6 +9467,14 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-C.cmake:
 
+/opt/homebrew/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime:
+
+/opt/homebrew/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
+
 /opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake:
 
 /opt/homebrew/share/cmake/Modules/CheckIncludeFile.cmake:
@@ -9286,9 +9483,19 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/arm/_structs.h:
+
+/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qsslerror.h:
 
 /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QUrlQuery:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h:
+
+/opt/homebrew/share/cmake/Modules/CMakeSystem.cmake.in:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
 
@@ -9296,9 +9503,33 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:
 
+/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
+
+/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h:
+
+/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:
+
+/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qpicture.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h:
+
+/opt/homebrew/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
+
 /opt/homebrew/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake:
+
+/opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/functional.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/runetype.h:
+
+/opt/homebrew/share/cmake/Modules/CMakeCCompiler.cmake.in:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake:
 
@@ -9306,19 +9537,23 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /opt/homebrew/bin/cmake:
 
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.h:
+
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qinputdevice.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qatomic_cxx11.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef:
+
+/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake:
 
@@ -9334,21 +9569,25 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake:
 
-/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qformlayout.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateVersionlessAliasTargets.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mbstate_t.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
+
+/opt/homebrew/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateTargets.cmake:
 
@@ -9368,8 +9607,6 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginConfig.cmake:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qpixmap.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Network/Qt6QSCNetworkReachabilityNetworkInformationPluginTargets.cmake:
 
 /opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake:
@@ -9378,7 +9615,7 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Network/Qt6QSCNetworkReachabilityNetworkInformationPluginAdditionalTargetInfo.cmake:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qtextdocument.h:
+/opt/homebrew/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake:
 
@@ -9422,6 +9659,10 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ctype.h:
 
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qdialogbuttonbox.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake:
+
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_null.h:
@@ -9435,6 +9676,8 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
+
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login_window.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake:
 
@@ -9455,6 +9698,8 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake:
+
+/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h:
 
@@ -9494,17 +9739,15 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integral.h:
 
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.cpp:
-
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateTargets.cmake:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsonarray.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslerror.h:
 
@@ -9531,6 +9774,8 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/q17memory.h:
+
+/opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake:
 
@@ -9566,8 +9811,6 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateAdditionalTargetInfo.cmake:
 
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login.cpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h:
@@ -9582,9 +9825,13 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake:
 
+/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake:
+
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake:
 
@@ -9632,10 +9879,6 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtextedit.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qeventloop.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
@@ -9661,10 +9904,6 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/QTransform:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
@@ -9695,10 +9934,6 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qabstractsocket.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qpointingdevice.h:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
 
@@ -9774,12 +10009,6 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslconfiguration.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qeventpoint.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslcertificate.h:
@@ -9788,17 +10017,13 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qnetworkaccessmanager.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/regular.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qnativeinterface.h:
+/opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
 
 /opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QSslPreSharedKeyAuthenticator:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qscreen.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qstandarditemmodel.h:
 
@@ -9820,6 +10045,10 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h:
 
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h:
+
 /opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_wctype.h:
@@ -9836,27 +10065,15 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractspinbox.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_empty.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_destructible.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/QStandardItem:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QLayout:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h:
 
@@ -9906,6 +10123,10 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h:
 
+/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qtformat_impl.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg___va_copy.h:
@@ -9952,6 +10173,10 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6GuiPrivate/Qt6GuiPrivateTargets.cmake:
@@ -9962,15 +10187,9 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QUrlQuery:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qspan.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdint.h:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h:
 
@@ -9981,8 +10200,6 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qpair.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/q20iterator.h:
 
@@ -9999,8 +10216,6 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qvectornd.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qbitmap.h:
 
@@ -10024,6 +10239,8 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h:
 
+/opt/homebrew/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qline.h:
@@ -10031,10 +10248,6 @@ BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp:
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qflags.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/voidify.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QComboBox:
 
 BugTracking_autogen/moc_predefs.h:
 
@@ -10047,8 +10260,6 @@ BugTracking_autogen/moc_predefs.h:
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qrgba64.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QFormLayout:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/___wctype.h:
 
@@ -10096,6 +10307,8 @@ BugTracking_autogen/moc_predefs.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h:
 
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login.cpp:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h:
@@ -10122,17 +10335,15 @@ BugTracking_autogen/moc_predefs.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qcomparehelpers.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsonvalue.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/locale:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h:
 
+/opt/homebrew/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qtnetworkglobal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_strings.h:
 
@@ -10168,35 +10379,45 @@ BugTracking_autogen/moc_predefs.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/QMetaType:
 
-/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateVersionlessAliasTargets.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qtdeprecationmarkers.h:
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration_window.h:
+
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_va_list.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
+
+/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__xlocale.h:
+
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration.cpp:
+
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/main.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QWidget:
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qlabel.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
+/opt/homebrew/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/feature_dialogue.ui:
 
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.ui:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_wchar.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/move.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/nat.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake:
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home_window.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/home.cpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/createbug.ui:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h:
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Home/createbug.ui:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h:
 
@@ -10210,10 +10431,6 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/pthread.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h:
-
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stdarg_va_list.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
@@ -10221,6 +10438,8 @@ BugTracking_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h:
 
@@ -10246,19 +10465,9 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/set:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mbstate_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qtenvironmentvariables.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration.ui:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qendian.h:
 
@@ -10268,13 +10477,23 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/class_or_enum.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_ctermid.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread/qos.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/endian.h:
 
@@ -10308,8 +10527,6 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h:
 
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login_window.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h:
@@ -10331,10 +10548,6 @@ BugTracking_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qlabel.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake:
 
@@ -10400,9 +10613,7 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/QCloseEvent:
+/opt/homebrew/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h:
 
@@ -10418,9 +10629,13 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:
 
-/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/bounded_iter.h:
 
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/registration_window.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
+
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/login/login.ui:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h:
 
@@ -10440,10 +10655,6 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qstringconverter.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QSslConfiguration:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qsize.h:
@@ -10462,11 +10673,15 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/identity.h:
 
+/opt/homebrew/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h:
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/QCloseEvent:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h:
 
@@ -10485,6 +10700,10 @@ BugTracking_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qassert.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QJsonArray:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bit:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/streambuf:
 
@@ -10530,6 +10749,8 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/no_destroy.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/move.h:
+
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateAdditionalTargetInfo.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_time.h:
@@ -10566,10 +10787,6 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/functional.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/runetype.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qtguiexports.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h:
@@ -10581,8 +10798,6 @@ BugTracking_autogen/moc_predefs.h:
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qtcore-config.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qstdlibdetection.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/empty.h:
 
@@ -10604,11 +10819,15 @@ BugTracking_autogen/moc_predefs.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake:
 
+/opt/homebrew/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake:
+
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/vector.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h:
+
+/opt/homebrew/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/compare:
 
@@ -10642,12 +10861,6 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/limits.h:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/register/main.cpp:
-
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6/QtPublicGitHelpers.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/negation.h:
@@ -10662,8 +10875,6 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
 
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_developer/s_developer.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qxptype_traits.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qvariant.h:
@@ -10675,6 +10886,8 @@ BugTracking_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_volatile.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_void.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h:
 
@@ -10691,8 +10904,6 @@ BugTracking_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/quuid.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qcombobox.h:
 
@@ -10728,13 +10939,7 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qfontvariableaxis.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_same.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h:
 
@@ -10752,6 +10957,10 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/datasizeof.h:
+
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.cpp:
+
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qconfig.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
@@ -10768,6 +10977,8 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
 
+/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qobject_impl.h:
@@ -10782,11 +10993,19 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_enum.h:
 
+/opt/homebrew/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
+
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/sstream.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_empty.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h:
 
@@ -10810,6 +11029,8 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_arithmetic.h:
 
+/opt/homebrew/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_allocator.h:
@@ -10832,8 +11053,6 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/integral_constant.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qguiapplication.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake:
@@ -10845,10 +11064,6 @@ BugTracking_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/QFlags:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/datasizeof.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qvalidator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h:
 
@@ -10873,6 +11088,8 @@ BugTracking_autogen/moc_predefs.h:
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateDependencies.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/alignment_of.h:
+
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/dialogue.ui:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_end.h:
 
@@ -10922,6 +11139,8 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/unique_lock.h:
 
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/CMakeLists.txt:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h:
@@ -10945,6 +11164,14 @@ BugTracking_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/unicode.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcoreevent.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qnetworkaccessmanager.h:
 
@@ -10972,6 +11199,8 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/movable_box.h:
 
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_developer/s_developer.ui:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/empty.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_static_assert.h:
@@ -10987,8 +11216,6 @@ BugTracking_autogen/moc_predefs.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/clamp.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QLabel:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qstringfwd.h:
 
@@ -11012,21 +11239,29 @@ BugTracking_autogen/moc_predefs.h:
 
 /opt/homebrew/share/cmake/Modules/Linker/AppleClang-C.cmake:
 
+/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/derived_from.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6CorePrivate/Qt6CorePrivateTargets.cmake:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qbasictimer.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/language.h:
+
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h:
 
@@ -11038,9 +11273,11 @@ BugTracking_autogen/moc_predefs.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h:
 
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/assign_dialogue.ui:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__verbose_abort:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QComboBox:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/voidify.h:
 
 BugTracking_autogen/mocs_compilation.cpp:
 
@@ -11202,6 +11439,8 @@ BugTracking_autogen/VXPGVDKWWK/moc_registration_window.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h:
 
+/opt/homebrew/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
+
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
@@ -11214,9 +11453,17 @@ BugTracking_autogen/VXPGVDKWWK/moc_registration_window.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/concepts.h:
 
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qeventpoint.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/erase_if_container.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/memory.h:
 
 BugTracking_autogen/X2ZTF664SI/moc_home_window.cpp:
+
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h:
 
@@ -11262,8 +11509,6 @@ BugTracking_autogen/X2ZTF664SI/moc_home_window.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/streambuf.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/auto_ptr.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/q23utility.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
@@ -11271,6 +11516,12 @@ BugTracking_autogen/X2ZTF664SI/moc_home_window.cpp:
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Network/Qt6QSCNetworkReachabilityNetworkInformationPluginConfig.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/disjunction.h:
 
@@ -11293,8 +11544,6 @@ BugTracking_autogen/X2ZTF664SI/moc_home_window.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/complex.h:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.ui:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h:
 
@@ -11376,12 +11625,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/roots.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake:
@@ -11404,7 +11647,11 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h:
 
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/register/registration.ui:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/arm/_endian.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception_ptr.h:
 
@@ -11432,8 +11679,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/q20utility.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/language.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
@@ -11444,9 +11689,9 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler:
 
-/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginTargets-relwithdebinfo.cmake:
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qnativeinterface.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qtnetwork-config.h:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/regular.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 
@@ -11474,13 +11719,13 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h:
 
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/assign_dialogue.ui:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/predicate.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QNetworkReply:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/nullptr_t.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qregularexpression.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6NetworkPrivate/Qt6NetworkPrivateConfigVersion.cmake:
 
@@ -11490,17 +11735,9 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_destructor.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_wchar.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/nat.h:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qoverload.h:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake:
 
@@ -11508,11 +11745,7 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/pair.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Home/home_window.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
 
@@ -11523,6 +11756,8 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_base_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/assignable.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/limits.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h:
 
@@ -11554,7 +11789,13 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake:
 
+/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/rotate.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qtnetwork-config.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginTargets-relwithdebinfo.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h:
 
@@ -11575,8 +11816,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/kill_dependency.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/compiler.h:
 
@@ -11618,13 +11857,17 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtabwidget.h:
+/opt/homebrew/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h:
 
+/opt/homebrew/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/mutex.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QSize:
+BugTracking_autogen/include/ui_createbug.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h:
 
@@ -11704,8 +11947,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qjsondocument.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/abi.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h:
@@ -11726,15 +11967,11 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qscreen_platform.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qelapsedtimer.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy.h:
 
@@ -11746,11 +11983,11 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qtcpsocket.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_locale.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h:
+/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake:
+
+/Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/Senior_Tester/s_tester.ui:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax_element.h:
 
@@ -11774,6 +12011,10 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h:
 
+/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QLayout:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h:
@@ -11789,6 +12030,8 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/move.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h:
+
+/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsPrivateConfigVersion.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QMetaType:
 
@@ -11822,17 +12065,17 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
-
 /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h:
+
+/opt/homebrew/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
+
+/opt/homebrew/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/invert_if.h:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/login/login.ui:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search.h:
 
@@ -11856,11 +12099,7 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h:
 
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/Senior_Tester/s_tester.cpp:
-
 /Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake:
-
-/Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/CMakeLists.txt:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h:
 
@@ -11896,13 +12135,11 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h:
 
-/Users/arnav/Qt/6.9.0/macos/lib/cmake/Qt6DBusPrivate/Qt6DBusPrivateConfigVersion.cmake:
+/Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/QTransform:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__xlocale.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qapplication.h:
 
 /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QTableView:
 
@@ -11956,6 +12193,10 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h:
 
+/Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qcborcommon.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if_not.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/compressed_pair.h:
@@ -11967,8 +12208,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
 /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/invoke.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:
 
@@ -11983,8 +12222,6 @@ CMakeFiles/4.0.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/concepts.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h:
-
-/Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QVBoxLayout:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list:
 

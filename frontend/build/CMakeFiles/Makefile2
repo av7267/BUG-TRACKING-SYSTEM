@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend"
+CMAKE_SOURCE_DIR = "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build"
+CMAKE_BINARY_DIR = "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -88,14 +88,14 @@ CMakeFiles/BugTracking.dir/all: CMakeFiles/BugTracking_autogen.dir/all
 CMakeFiles/BugTracking.dir/all: CMakeFiles/BugTracking_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BugTracking.dir/build.make CMakeFiles/BugTracking.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BugTracking.dir/build.make CMakeFiles/BugTracking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Built target BugTracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Built target BugTracking"
 .PHONY : CMakeFiles/BugTracking.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BugTracking.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" 10
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BugTracking.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" 0
 .PHONY : CMakeFiles/BugTracking.dir/rule
 
 # Convenience name for target.
@@ -106,7 +106,7 @@ BugTracking: CMakeFiles/BugTracking.dir/rule
 CMakeFiles/BugTracking.dir/codegen: CMakeFiles/BugTracking_autogen.dir/all
 CMakeFiles/BugTracking.dir/codegen: CMakeFiles/BugTracking_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BugTracking.dir/build.make CMakeFiles/BugTracking.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Finished codegen for target BugTracking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9 "Finished codegen for target BugTracking"
 .PHONY : CMakeFiles/BugTracking.dir/codegen
 
 # clean rule for target.
@@ -121,14 +121,14 @@ CMakeFiles/BugTracking.dir/clean:
 CMakeFiles/BugTracking_autogen_timestamp_deps.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BugTracking_autogen_timestamp_deps.dir/build.make CMakeFiles/BugTracking_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BugTracking_autogen_timestamp_deps.dir/build.make CMakeFiles/BugTracking_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num= "Built target BugTracking_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num= "Built target BugTracking_autogen_timestamp_deps"
 .PHONY : CMakeFiles/BugTracking_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BugTracking_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BugTracking_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" 0
 .PHONY : CMakeFiles/BugTracking_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -138,7 +138,7 @@ BugTracking_autogen_timestamp_deps: CMakeFiles/BugTracking_autogen_timestamp_dep
 # codegen rule for target.
 CMakeFiles/BugTracking_autogen_timestamp_deps.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BugTracking_autogen_timestamp_deps.dir/build.make CMakeFiles/BugTracking_autogen_timestamp_deps.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num= "Finished codegen for target BugTracking_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num= "Finished codegen for target BugTracking_autogen_timestamp_deps"
 .PHONY : CMakeFiles/BugTracking_autogen_timestamp_deps.dir/codegen
 
 # clean rule for target.
@@ -153,14 +153,14 @@ CMakeFiles/BugTracking_autogen_timestamp_deps.dir/clean:
 CMakeFiles/BugTracking_autogen.dir/all: CMakeFiles/BugTracking_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BugTracking_autogen.dir/build.make CMakeFiles/BugTracking_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BugTracking_autogen.dir/build.make CMakeFiles/BugTracking_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=10 "Built target BugTracking_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=10 "Built target BugTracking_autogen"
 .PHONY : CMakeFiles/BugTracking_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BugTracking_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BugTracking_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" 0
 .PHONY : CMakeFiles/BugTracking_autogen.dir/rule
 
 # Convenience name for target.
@@ -170,7 +170,7 @@ BugTracking_autogen: CMakeFiles/BugTracking_autogen.dir/rule
 # codegen rule for target.
 CMakeFiles/BugTracking_autogen.dir/codegen: CMakeFiles/BugTracking_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BugTracking_autogen.dir/build.make CMakeFiles/BugTracking_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/Amrita/semester 4/dsa/c++ dsa/myproject/frontend/build/CMakeFiles" --progress-num=10 "Finished codegen for target BugTracking_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/arnav/Documents/projects/git projects/BUG-TRACKING-SYSTEM/frontend/build/CMakeFiles" --progress-num=10 "Finished codegen for target BugTracking_autogen"
 .PHONY : CMakeFiles/BugTracking_autogen.dir/codegen
 
 # clean rule for target.

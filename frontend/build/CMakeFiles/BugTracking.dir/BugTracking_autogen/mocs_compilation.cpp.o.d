@@ -1,7 +1,7 @@
 CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o: \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/mocs_compilation.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/X2ZTF664SI/moc_home_window.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/X2ZTF664SI/../../../Home/home_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/mocs_compilation.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/X2ZTF664SI/moc_home_window.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/X2ZTF664SI/../../../Home/home_window.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/QMainWindow \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -1008,18 +1008,18 @@ CMakeFiles/BugTracking.dir/BugTracking_autogen/mocs_compilation.cpp.o: \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qtmocconstants.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/q20algorithm.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/q23type_traits.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/WOUI4CQD7H/../../../Senior_Tester/s_tester.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/WOUI4CQD7H/moc_s_tester.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/WOUI4CQD7H/../../../Senior_Tester/s_tester.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/QNetworkReply \
   /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/qnetworkreply.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/QIODevice \
   /Users/arnav/Qt/6.9.0/macos/lib/QtNetwork.framework/Headers/QNetworkRequest \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/OSJZT5MQGE/moc_s_developer.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/OSJZT5MQGE/../../../Senior_developer/s_developer.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/OSJZT5MQGE/moc_s_developer.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/OSJZT5MQGE/../../../Senior_developer/s_developer.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/QStandardItem \
   /Users/arnav/Qt/6.9.0/macos/lib/QtGui.framework/Headers/qstandarditemmodel.h \
   /Users/arnav/Qt/6.9.0/macos/lib/QtCore.framework/Headers/qabstractitemmodel.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/7UJL7PXKVV/moc_login_window.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/7UJL7PXKVV/../../../login/login_window.h \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/VXPGVDKWWK/moc_registration_window.cpp \
-  /Users/arnav/Documents/Amrita/semester\ 4/dsa/c++\ dsa/myproject/frontend/build/BugTracking_autogen/VXPGVDKWWK/../../../register/registration_window.h
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/7UJL7PXKVV/moc_login_window.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/7UJL7PXKVV/../../../login/login_window.h \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/VXPGVDKWWK/moc_registration_window.cpp \
+  /Users/arnav/Documents/projects/git\ projects/BUG-TRACKING-SYSTEM/frontend/build/BugTracking_autogen/VXPGVDKWWK/../../../register/registration_window.h
