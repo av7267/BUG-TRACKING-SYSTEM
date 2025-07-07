@@ -46,7 +46,7 @@ void registrationwindow::handleregister() {
     json["role"] = role;
 
     
-    QUrl url("http://172.30.1.56:18080/register");
+    QUrl url("http://localhost:18080/register");
     QNetworkRequest request;
 
     request.setUrl(url);
