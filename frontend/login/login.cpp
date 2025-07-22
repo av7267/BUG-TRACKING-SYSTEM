@@ -42,7 +42,7 @@ void LoginWindow::handleLogin() {
     jsonObject["username"] = username;
     jsonObject["password"] = password;
 
-    QUrl url("http://172.30.1.56:18080/login");
+    QUrl url("http://localhost:18080/login");
     QNetworkRequest request;
     request.setUrl(url);
     request.setHeader(QNetworkRequest::ContentTypeHeader,"application/json");
@@ -50,6 +50,7 @@ void LoginWindow::handleLogin() {
     QNetworkReply *reply = manager->post(request, QJsonDocument(jsonObject).toJson());
     connect(reply, &QNetworkReply::finished, this, [this, reply, selectedRole]() {
         QByteArray responseData = reply->readAll();
+        qDebug() << "Raw response:" << responseData;
         QJsonDocument doc = QJsonDocument::fromJson(responseData);
 
         if (!doc.isObject()) {

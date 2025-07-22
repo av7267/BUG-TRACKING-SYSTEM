@@ -49,18 +49,22 @@ public:
 
                 if (loweredRole == "senior tester" || loweredRole == "senior developer") {
                     crow::json::wvalue result;
-                    result["status"] = "success";
+                    result["message"] = "Login successful";
                     result["user_id"] = std::stoi(row[0]);
                     result["role"] = dbRole;
                     mysql_free_result(res);
-                    return crow::response(result);  
+                    return crow::response(result);
                 } else {
                     mysql_free_result(res);
-                    return crow::response(403, "Access denied: unauthorized role");
+                    crow::json::wvalue result;
+                    result["message"] = "Access denied: unauthorized role";
+                    return crow::response(403, result);
                 }
             } else {
                 mysql_free_result(res);
-                return crow::response(404, "User not found or incorrect credentials");
+                crow::json::wvalue result;
+                result["message"] = "User not found or incorrect credentials";
+                return crow::response(404, result);
             }
         });
   

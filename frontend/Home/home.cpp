@@ -30,7 +30,7 @@ CreateItem::~CreateItem()
 }
 
 void CreateItem::fetchItemTypes() {
-    QUrl url("http://172.30.1.56:18080/api/item-types");
+    QUrl url("http://localhost:18080/api/item-types");
     QNetworkRequest request(url);
 
     QNetworkReply *reply = manager->get(request);
