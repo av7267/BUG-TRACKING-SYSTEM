@@ -28,7 +28,7 @@ SeniorTesterWindow::SeniorTesterWindow(QWidget *parent, int user_id)
     connect(ui->pushButton_addFeature, &QPushButton::clicked, this, &SeniorTesterWindow::addFeature); //update
     connect(ui->deleteButton, &QPushButton::clicked,this,&SeniorTesterWindow::DeleteBug);     //delete
     connect(ui->pushButton_2, &QPushButton::clicked, this, &SeniorTesterWindow::fetchBugs);  //Ok
-    connect(ui->pushButton_create, &QPushButton::clicked,this,&SeniorTesterWindow::CreateBug);
+    connect(ui->pushButton_create, &QPushButton::clicked,this,&SeniorTesterWindow::CreateBug);  
 
     QPushButton *quitButton = new QPushButton("Quit", this);
     ui->verticalLayout->addWidget(quitButton);

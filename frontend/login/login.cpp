@@ -9,9 +9,6 @@
 #include "../Senior_Tester/s_tester.h"
 #include "../Senior_developer/s_developer.h"
 
-
- 
-
 LoginWindow :: LoginWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::LoginWindow)
@@ -52,41 +49,43 @@ void LoginWindow::handleLogin() {
 
     QNetworkReply *reply = manager->post(request, QJsonDocument(jsonObject).toJson());
     connect(reply, &QNetworkReply::finished, this, [this, reply, selectedRole]() {
-        QString response = reply->readAll();
+        QByteArray responseData = reply->readAll();
+        QJsonDocument doc = QJsonDocument::fromJson(responseData);
 
-        if (response.contains("success", Qt::CaseInsensitive)) {
-            int user_id = 0;
-            QString role;
-            QJsonDocument doc = QJsonDocument::fromJson(response.toUtf8());
-            if (doc.isObject()) {
-                QJsonObject obj = doc.object();
-                if (obj.contains("user_id") && obj.contains("role")) {
-                    user_id = obj["user_id"].toInt();
-                    role = obj["role"].toString();
-                }
-                    
-            }
+        if (!doc.isObject()) {
+            QMessageBox::warning(this, "Login Failed", "Invalid response from server.");
+            reply->deleteLater();
+            return;
+        }
 
-            if (selectedRole != role) {
-                QMessageBox::warning(this, "Login Failed", "You are not authorized for the selected role.");
-                reply->deleteLater();
-                return;
-            }
+        QJsonObject obj = doc.object();
 
-            QWidget *homePage = nullptr;
-            if (role == "Senior Tester") {
-                homePage = new SeniorTesterWindow();
-            } else if (role == "Senior Developer") {
-                homePage = new ActivityWindow(user_id);
-            }
+        if (!obj.contains("message") || obj["message"].toString() != "Login successful") {
+            QMessageBox::warning(this, "Login Failed", obj["message"].toString());
+            reply->deleteLater();
+            return;
+        }
 
-            if (homePage) {
-                homePage->setAttribute(Qt::WA_DeleteOnClose);
-                homePage->show();
-                this->close();
-            }
-        } else {
-            QMessageBox::information(this, "Server Response", response);
+        int user_id = obj["user_id"].toInt();
+        QString role = obj["role"].toString();
+
+        if (selectedRole != role) {
+            QMessageBox::warning(this, "Login Failed", "You are not authorized for the selected role.");
+            reply->deleteLater();
+            return;
+        }
+
+        QWidget *homePage = nullptr;
+        if (role == "Senior Tester") {
+            homePage = new SeniorTesterWindow();
+        } else if (role == "Senior Developer") {
+            homePage = new ActivityWindow(user_id);
+        }
+
+        if (homePage) {
+            homePage->setAttribute(Qt::WA_DeleteOnClose);
+            homePage->show();
+            this->close();
         }
         reply->deleteLater();
     });
