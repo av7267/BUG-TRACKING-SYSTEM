@@ -10,6 +10,7 @@
 #include <QJsonArray>
 #include "ui_s_developer.h"
 #include "ui_dialogue.h"
+#include "ui_assign_developer.h"
 
 
 ActivityWindow::ActivityWindow(int developerId, QWidget *parent)
@@ -41,20 +42,34 @@ void ActivityWindow::assignDevelopers()
 {
     QModelIndex index = ui->tableView->currentIndex();
     if(!index.isValid()) {
-        QMessageBox::warning(this,"Error","select a row to assign");
+        QMessageBox::warning(this,"Error","Select a row to assign");
         return;
     }
 
     QAbstractItemModel *model = ui->tableView->model();
     int row = index.row();
 
-    QString id = model->index(row,0).data().toString();
+    QString id = model->index(row, 0).data().toString();
 
-    if(id.isEmpty() || id=="0") {
+    if(id.isEmpty() || id == "0") {
         QMessageBox::warning(this,"Error","Invalid ID");
         return;
     }
+
+    QDialog dialog(this);
+    Ui::Assigndeveloper assignUI;
+    assignUI.setupUi(&dialog);
+
     
+
+    connect(assignUI.buttonBox, &QDialogButtonBox::accepted, &dialog, &QDialog::accept);
+    connect(assignUI.buttonBox, &QDialogButtonBox::rejected, &dialog, &QDialog::reject);
+
+    if(dialog.exec() == QDialog::Accepted) {
+        QString selectedDev = assignUI.comboBox_developer->currentText();
+        QMessageBox::information(this, "Assigned", "Bug " + id + " assigned to: " + selectedDev);
+        // TODO: Send assign request to backend
+    }
 }
 
 
@@ -131,16 +146,18 @@ void ActivityWindow::fetchItems()
 
             QJsonArray arr = doc.object()["assigned_bugs"].toArray();
 
-            QStandardItemModel *model = new QStandardItemModel(arr.size(), 4, this);
-            model->setHorizontalHeaderLabels({"ID", "Item Type", "Item Status", "Description"});
+            QStandardItemModel *model = new QStandardItemModel(arr.size(), 6, this);
+            model->setHorizontalHeaderLabels({"ID", "Item Type", "Item Status", "Level", "Description", "Assigned By"});
 
             for (int i = 0; i < arr.size(); ++i)
             {
                 QJsonObject obj = arr[i].toObject();
                 model->setItem(i, 0, new QStandardItem(QString::number(obj["description_id"].toInt())));
                 model->setItem(i, 1, new QStandardItem(obj["item_type"].toString()));
-                model->setItem(i, 2, new QStandardItem(obj["item_status"].toString())); 
-                model->setItem(i, 3, new QStandardItem(obj["description"].toString()));
+                model->setItem(i, 2, new QStandardItem(obj["item_status"].toString()));
+                model->setItem(i, 3, new QStandardItem(obj["level"].toString()));
+                model->setItem(i, 4, new QStandardItem(obj["description"].toString()));
+                model->setItem(i, 5, new QStandardItem(obj["assigned_by"].toString()));
             }
 
             ui->tableView->setModel(model);
