@@ -85,8 +85,6 @@
         <item><property name="text"><string>in progress</string></property></item>
         <item><property name="text"><string>completed</string></property></item>
         <item><property name="text"><string>committed</string></property></item>
-        <item><property name="text"><string>to test</string></property></item>
-        <item><property name="text"><string>reopen</string></property></item>
         <item><property name="text"><string>close</string></property></item>
        </widget>
       </item>
@@ -108,18 +106,37 @@
        <item><property name="text"><string>Logic</string></property></item>
        <item><property name="text"><string>Performance</string></property></item>
        <item><property name="text"><string>Security</string></property></item>
-       <item><property name="text"><string>Other</string></property></item>
       </widget>
      </item>
+
+     <item row="4" column="0">
+     <widget class="QLabel" name="label_description">
+     <property name = "text">
+     <string>Level:</string>
+     </property>
+     </widget>
+     </item>
+
+     <item row ="4" column="1">
+     <widget class="QComboBox" name = "comboBox_level">
+     <property name="minimumWidth">
+     <number>200</number>
+     </property>
+     <item><property name="text"><string>Low</string></property></item>
+     <item><property name="text"><string>Medium</string></property></item>
+     <item><property name="text"><string>High</string></property></item>
+     <item><property name="text"><string>Critical</string></property></item>
+     </widget>
+     </item>
      
-      <item row="3" column="0">
+      <item row="5" column="0">
        <widget class="QLabel" name="label_description">
         <property name="text">
          <string>Description:</string>
         </property>
        </widget>
       </item>
-      <item row="3" column="1">
+      <item row="5" column="1">
        <widget class="QLineEdit" name="lineEdit_description">
         <property name="minimumSize">
          <size>

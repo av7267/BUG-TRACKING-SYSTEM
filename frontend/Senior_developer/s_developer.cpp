@@ -28,6 +28,7 @@ ActivityWindow::ActivityWindow(int developerId, QWidget *parent)
     ui->verticalLayout->addWidget(quitButton);
     connect(quitButton, &QPushButton::clicked, qApp, &QCoreApplication::quit, Qt::QueuedConnection);
 
+    qDebug() << "Developer ID passed to ActivityWindow:" << developerId;
 }
 
 ActivityWindow::~ActivityWindow()
@@ -50,6 +51,8 @@ void ActivityWindow::assignDevelopers()
     int row = index.row();
 
     QString id = model->index(row, 0).data().toString();
+
+    qDebug() << "Assigning bug ID:" << id;
 
     if(id.isEmpty() || id == "0") {
         QMessageBox::warning(this,"Error","Invalid ID");
@@ -85,6 +88,8 @@ void ActivityWindow::handleedit()
     int row = index.row();
     QString id = model->index(row, 0).data().toString();
 
+    qDebug() << "Editing bug ID:" << id;
+
     if (id.isEmpty() || id == "0") {
         QMessageBox::warning(this, "Error", "Invalid or missing ID. Cannot update.");
         return;
@@ -102,6 +107,8 @@ void ActivityWindow::handleedit()
     connect(editui.buttonBox, &QDialogButtonBox::rejected, &dialog, &QDialog::reject);
 
     if (dialog.exec() == QDialog::Accepted) {
+        qDebug() << "Updating status to:" << editui.comboBox_itemStatus->currentText();
+
         QJsonObject json;
         json["description_id"] = id.toInt();
         json["item_status"] = editui.comboBox_itemStatus->currentText();
@@ -147,7 +154,7 @@ void ActivityWindow::fetchItems()
             QJsonArray arr = doc.object()["assigned_bugs"].toArray();
 
             QStandardItemModel *model = new QStandardItemModel(arr.size(), 6, this);
-            model->setHorizontalHeaderLabels({"ID", "Item Type", "Item Status", "Level", "Description", "Assigned By"});
+            model->setHorizontalHeaderLabels({"ID", "Item Type", "Item Status", "Description", "Level", "Assigned By"});
 
             for (int i = 0; i < arr.size(); ++i)
             {
@@ -155,8 +162,8 @@ void ActivityWindow::fetchItems()
                 model->setItem(i, 0, new QStandardItem(QString::number(obj["description_id"].toInt())));
                 model->setItem(i, 1, new QStandardItem(obj["item_type"].toString()));
                 model->setItem(i, 2, new QStandardItem(obj["item_status"].toString()));
-                model->setItem(i, 3, new QStandardItem(obj["level"].toString()));
-                model->setItem(i, 4, new QStandardItem(obj["description"].toString()));
+                model->setItem(i, 3, new QStandardItem(obj["description"].toString()));   // Description
+                model->setItem(i, 4, new QStandardItem(obj["level"].toString()));         // Level
                 model->setItem(i, 5, new QStandardItem(obj["assigned_by"].toString()));
             }
 
@@ -164,6 +171,8 @@ void ActivityWindow::fetchItems()
             ui->tableView->setColumnHidden(0, true);
             ui->tableView->resizeRowsToContents();
             ui->tableView->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch); 
+
+            qDebug() << "Rows added to model:" << model->rowCount();
         }
         else
         {

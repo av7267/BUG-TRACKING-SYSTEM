@@ -23,7 +23,6 @@ public:
 
 class ItemManager {
 public:
-    static void itemtypetable(database&);
     static void insertitemtype(database&);
     static void itemdescriptiontable(database&);
 };

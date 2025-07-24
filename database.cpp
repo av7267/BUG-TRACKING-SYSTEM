@@ -62,16 +62,7 @@ void UserManager::usertable(database& db) {
     db.executeQuery(query);
 }
 
-// Item Type Table
-void ItemManager::itemtypetable(database& db) {
-    string types = R"(
-        CREATE TABLE IF NOT EXISTS item_types (
-            item_id INT PRIMARY KEY AUTO_INCREMENT,
-            type_name VARCHAR(50) NOT NULL UNIQUE
-        );
-    )";
-    db.executeQuery(types);
-}
+
 
 // Insert default item types
 void ItemManager::insertitemtype(database& db) {
@@ -89,13 +80,14 @@ void ItemManager::itemdescriptiontable(database& db) {
             feature_type VARCHAR(50) NOT NULL,
             item_type VARCHAR(50) NOT NULL,
             item_status VARCHAR(50) NOT NULL,
+            level VARCHAR(20) NOT NULL,
             description TEXT NOT NULL
         );
     )";
     db.executeQuery(description);
 }
 
-// Assignment table
+// Assignment table for S.developers
 void AssignTables::seniordeveloperassign(database& db) {
     string assign = R"(
         CREATE TABLE IF NOT EXISTS item_assign (

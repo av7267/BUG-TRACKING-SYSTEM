@@ -72,28 +72,7 @@ public:
             return "<h1>Home Page</h1>";
         });
         
-        CROW_ROUTE(app,"/api/item-types").methods("GET"_method)([&db] () {
-            string query = "SELECT type_name FROM item_types;";
-            if (mysql_query(db.conn, query.c_str()) != 0) {
-                return crow::response(500, mysql_error(db.conn));
-            }
-
-            MYSQL_RES* res = mysql_store_result(db.conn);
-            MYSQL_ROW row;
-
-            crow::json::wvalue result;
-            crow::json::wvalue typesArray;
-            int index = 0;
-
-            while ((row = mysql_fetch_row(res))) 
-            {
-                typesArray[index++] = row[0];
-            }
-
-            result["types"] = std::move(typesArray);
-            mysql_free_result(res);
-            return crow::response(result); 
-        });
+        
 
 
         CROW_ROUTE(app,"/api/description").methods("POST"_method)([&db] (const crow::request& req) {
@@ -107,8 +86,14 @@ public:
             string item_status = jsonData["item_status"].s();
             string Description = jsonData["description"].s();
             string feature_type = jsonData["feature_type"].s();
-            string query = "INSERT INTO item_description (item_type, item_status, Description, feature_type) VALUES ('" +
-               item_type + "', '" + item_status + "', '" + Description + "', '" + feature_type + "');";
+            string level = jsonData["level"].s();
+
+            if (Description.empty() || Description == "High" || Description == "Low" || Description == "Medium") {
+                return crow::response(400, "Invalid or missing description");
+            }
+
+            string query = "INSERT INTO item_description (item_type, item_status, Description, feature_type, level) VALUES ('" +
+               item_type + "', '" + item_status + "', '" + Description + "', '" + feature_type + "', '" + level + "');";
 
 
 
@@ -125,7 +110,7 @@ public:
                 auto urlParams = crow::query_string(req.url_params);
                 auto status = urlParams.get("status");
 
-                string query = "SELECT description_id, item_type, item_status, feature_type, description FROM item_description";
+                string query = "SELECT description_id, item_type, item_status, feature_type, level, description FROM item_description";
                 if (status) {
                     query += " WHERE item_status = '" + std::string(status) + "'";
                 }
@@ -147,7 +132,9 @@ public:
                     entry["item_type"] = row[1];
                     entry["item_status"] = row[2];
                     entry["feature_type"] = row[3];
-                    entry["description"] = row[4];
+                    entry["level"] = row[4];
+                    entry["description"] = row[5];
+
                     items[i++] = std::move(entry);
                 }
 
@@ -248,6 +235,18 @@ public:
             int assignee_id = jsonData["assigned_to"].i();
             int assigned_by = jsonData["assigned_by"].i();  // Senior Tester’s ID
 
+            string checkQuery = "SELECT * FROM users WHERE user_id = " + to_string(assigned_by);
+            if (mysql_query(db.conn, checkQuery.c_str()) != 0) {
+                return crow::response(500, mysql_error(db.conn));
+            }
+
+            MYSQL_RES* assignRes = mysql_store_result(db.conn);
+            if (!assignRes || mysql_num_rows(assignRes) == 0) {
+                mysql_free_result(assignRes);
+                return crow::response(400, "Invalid assigned_by user ID");
+            }
+            mysql_free_result(assignRes);
+
             CROW_LOG_INFO << "Assigning bug " << bug_id 
                           << " to " << assignee_id 
                           << " by " << assigned_by;
@@ -262,14 +261,15 @@ public:
             }
         });   
         
-        CROW_ROUTE(app, "/api/assigned-to").methods("GET"_method)([&db](const crow::request& req){
+        CROW_ROUTE(app, "/api/assigned-to").methods("GET"_method)([&db](const crow::request& req){ //display the assigned-by to the seniordevelopers
             auto urlParams = crow::query_string(req.url_params);
             int assignee_id = stoi(urlParams.get("id"));
 
-            string query = "SELECT d.description_id, d.description, d.item_type, d.item_status "
-                        "FROM item_description d "
-                        "JOIN item_assign a ON d.description_id = a.description_id "
-                        "WHERE a.assignee_id = " + to_string(assignee_id) + ";";
+            string query = "SELECT d.description_id, d.description, d.item_type, d.item_status, d.level, u.username AS assigned_by "
+                           "FROM item_description d "
+                           "JOIN item_assign a ON d.description_id = a.description_id "
+                           "JOIN users u ON a.assigned_by = u.user_id "
+                           "WHERE a.assignee_id = " + to_string(assignee_id) + ";";
 
             if (mysql_query(db.conn, query.c_str())) {
                 return crow::response(500, mysql_error(db.conn));
@@ -287,6 +287,8 @@ public:
                 entry["description"] = row[1];
                 entry["item_type"] = row[2];
                 entry["item_status"] = row[3];
+                entry["level"] = row[4];
+                entry["assigned_by"] = row[5];
                 bug_list[i++] = std::move(entry);
             }
 
@@ -305,7 +307,6 @@ int main() {
     db.selectdatabase("bugtracker");
 
     UserManager::usertable(db);
-    ItemManager::itemtypetable(db);
     ItemManager::insertitemtype(db);
     ItemManager::itemdescriptiontable(db);
     AssignTables::seniordeveloperassign(db);

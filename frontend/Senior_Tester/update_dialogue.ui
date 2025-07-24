@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Add Feature</string>
+   <string>Update Bug</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -43,7 +43,6 @@
        <item><property name="text"><string>Logic</string></property></item>
        <item><property name="text"><string>Performance</string></property></item>
        <item><property name="text"><string>Security</string></property></item>
-       <item><property name="text"><string>Other</string></property></item>
       </widget>
      </item>
 
@@ -64,8 +63,6 @@
         <item><property name="text"><string>in progress</string></property></item>
         <item><property name="text"><string>completed</string></property></item>
         <item><property name="text"><string>committed</string></property></item>
-        <item><property name="text"><string>to test</string></property></item>
-        <item><property name="text"><string>reopen</string></property></item>
         <item><property name="text"><string>close</string></property></item>
       </widget>
      </item>

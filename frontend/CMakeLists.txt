@@ -4,6 +4,7 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/Home
     ${PROJECT_SOURCE_DIR}/Fetch
     ${PROJECT_SOURCE_DIR}/Activity
+    ${CMAKE_BINARY_DIR}/BugTracking_autogen/include
 )
 cmake_minimum_required(VERSION 3.16)
 project(BugTracking)
@@ -37,9 +38,10 @@ add_executable(BugTracking
     Senior_developer/s_developer.cpp
     Senior_developer/s_developer.h
     Senior_developer/s_developer.ui
+    Senior_developer/assign_developer.ui
 
     Senior_Tester/assign_dialogue.ui
-    Senior_Tester/feature_dialogue.ui
+    Senior_Tester/update_dialogue.ui
     Senior_Tester/s_tester.cpp
     Senior_Tester/s_tester.ui
     Senior_Tester/s_tester.h

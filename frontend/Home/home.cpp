@@ -15,7 +15,7 @@ CreateItem::CreateItem(QWidget *parent)
     , manager(new QNetworkAccessManager(this))
 {
     ui->setupUi(this);
-    fetchItemTypes();
+    
     connect(ui->pushButton_3, &QPushButton::clicked, this, &CreateItem::handleDescription);
 
     QPushButton *quitButton = new QPushButton("Quit", this);
@@ -30,42 +30,17 @@ CreateItem::~CreateItem()
 }
 
 void CreateItem::fetchItemTypes() {
-    QUrl url("http://localhost:18080/api/item-types");
-    QNetworkRequest request(url);
-
-    QNetworkReply *reply = manager->get(request);
-    connect(reply, &QNetworkReply::finished, this, [this, reply]()
-    {
-        if (reply->error() == QNetworkReply::NoError) 
-        {
-            QJsonDocument jsonDoc = QJsonDocument::fromJson(reply->readAll());
-            if (jsonDoc.isObject()) {
-                QJsonObject jsonObj = jsonDoc.object();
-                QJsonArray typesArray = jsonObj["types"].toArray();
-                ui->comboBox_itemType->clear();
-                for (const QJsonValue &val : typesArray) 
-                {
-                    ui->comboBox_itemType->addItem(val.toString());
-                }
-            }
-        } 
-        else 
-        { 
-            qDebug() << "Error fetching item types:" << reply->errorString();         
-        }
-        
-        reply->deleteLater();
-    
-    });
+    // TODO: Implement API call or database fetch logic
+    qDebug() << "fetchItemTypes() called, but not yet implemented.";
 }
-
 
 void CreateItem::handleDescription() {
    
     QString itemType = ui->comboBox_itemType->currentText();
     QString itemStatus = ui->comboBox_itemStatus->currentText();
     QString description = ui->lineEdit_description->text();
-    QString featureType = ui->comboBox_featureType->currentText();  // Assuming this exists
+    QString featureType = ui->comboBox_featureType->currentText();
+    QString level = ui->comboBox_level->currentText();
 
     if (description.trimmed().isEmpty()) {
         QMessageBox::warning(this, "Validation Error", "Description cannot be empty.");
@@ -77,6 +52,7 @@ void CreateItem::handleDescription() {
     json["item_status"] = itemStatus;
     json["description"] = description;
     json["feature_type"] = featureType;
+    json["level"] = level;
 
     QUrl url("http://localhost:18080/api/description");
     QNetworkRequest request;
@@ -88,28 +64,22 @@ void CreateItem::handleDescription() {
 
     connect(reply, &QNetworkReply::finished, this, [this, reply]() 
     {
-
         if (reply->error() == QNetworkReply::NoError) 
         {
             QMessageBox::information(nullptr, "Success", "Description submitted successfully!");
-            auto *EditWindow = new SeniorTesterWindow();
-            EditWindow->setAttribute(Qt::WA_DeleteOnClose);
-            EditWindow->show();
+            if (parentWidget()) parentWidget()->show();
             this->close();  
         } 
         else {
-
             qDebug() << "Failed to submit description:" << reply->errorString();
-                qDebug() << "Server response:" << reply->readAll();  // 🔥 THIS IS IMPORTANT
-
+            qDebug() << "Server response:" << reply->readAll();  // 🔥 THIS IS IMPORTANT
         }
         reply->deleteLater();
     });
 }
 
 void CreateItem::closeEvent(QCloseEvent *event) {
-    auto *activity = new SeniorTesterWindow();
-    activity->setAttribute(Qt::WA_DeleteOnClose);
-    activity->show();
+    if (parentWidget()) parentWidget()->show();
     event->accept();
 }
+

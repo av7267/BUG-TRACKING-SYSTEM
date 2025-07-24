@@ -9,7 +9,7 @@
 #include <QStandardItemModel>
 #include <QStandardItem>
 #include "../Senior_Tester/s_tester.h"
-#include "ui_feature_dialogue.h"
+#include "ui_update_dialogue.h"
 #include "ui_s_tester.h"
 #include "ui_assign_dialogue.h"
 #include "../Home/home_window.h"
@@ -161,8 +161,8 @@ void SeniorTesterWindow::fetchBugs()
 
             QJsonArray arr = doc.object()["items"].toArray();
 
-            QStandardItemModel *model = new QStandardItemModel(arr.size(), 5, this);
-            model->setHorizontalHeaderLabels({"ID", "Item Type", "Item Status", "Feature Type", "Description"});
+            QStandardItemModel *model = new QStandardItemModel(arr.size(), 6, this);
+            model->setHorizontalHeaderLabels({"ID", "Item Type", "Item Status", "Feature Type", "Level", "Description"});
 
             for (int i = 0; i < arr.size(); ++i)
             {
@@ -171,7 +171,8 @@ void SeniorTesterWindow::fetchBugs()
                 model->setItem(i, 1, new QStandardItem(obj["item_type"].toString()));
                 model->setItem(i, 2, new QStandardItem(obj["item_status"].toString()));
                 model->setItem(i, 3, new QStandardItem(obj["feature_type"].toString()));
-                model->setItem(i, 4, new QStandardItem(obj["description"].toString()));
+                model->setItem(i, 4, new QStandardItem(obj["level"].toString()));
+                model->setItem(i, 5, new QStandardItem(obj["description"].toString()));
             }
 
             
@@ -320,9 +321,8 @@ void SeniorTesterWindow::handleselection(const QModelIndex &current,const QModel
 
 void SeniorTesterWindow::CreateBug()
 {
-    auto *createwindow = new CreateItem();
+    auto *createwindow = new CreateItem(this);
     createwindow->setAttribute(Qt::WA_DeleteOnClose);
     createwindow->show();
-    this->close();
-
+    this->hide();
 }
