@@ -22,7 +22,11 @@ public:
                     return crow::response(500, mysql_error(db.conn));
                 }
 
-                return crow::response(200,"user creation successful");
+                int insertedId = mysql_insert_id(db.conn);
+                crow::json::wvalue result;
+                result["message"] = "user creation successful";
+                result["user_id"] = insertedId;
+                return crow::response(200, result);
             });
                
         CROW_ROUTE(app,"/login").methods("POST"_method)
@@ -156,12 +160,14 @@ public:
             string item_status = jsonData["item_status"].s();
             string description = jsonData["description"].s();
             string feature_type = jsonData["feature_type"].s();
+            string level = jsonData["level"].s();
 
             string query = "UPDATE item_description SET "
             "item_type = '" + item_type + "', "
             "item_status = '" + item_status + "', "
             "description = '" + description + "', "
-            "feature_type = '" + feature_type + "' "
+            "feature_type = '" + feature_type + "', "
+            "level = '" + level + "' "
             "WHERE description_id = " + to_string(id) + ";";
             
             if (mysql_query(db.conn, query.c_str())) {
@@ -225,41 +231,52 @@ public:
             return crow::response(result);
         });
         
-        CROW_ROUTE(app,"/api/assign").methods("POST"_method)([&db](const crow::request& req){ //assign to seniordevelopers by testers
-            auto jsonData = crow::json::load(req.body);
-            if (!jsonData) {
-                return crow::response(400, "Invalid JSON");
-            }
+        CROW_ROUTE(app, "/api/assign").methods("POST"_method)( // assign bugs to seniordevelopers by testers
+            [&db](const crow::request& req) { 
+                auto jsonData = crow::json::load(req.body);
+                CROW_LOG_INFO << "REQ BODY: " << req.body;
+                if (!jsonData) {
+                    return crow::response(400, "Invalid JSON");
+                }
 
-            int bug_id = jsonData["description_id"].i();
-            int assignee_id = jsonData["assigned_to"].i();
-            int assigned_by = jsonData["assigned_by"].i();  // Senior Tester’s ID
+                int bug_id = jsonData["description_id"].i();
+                int assignee_id = jsonData["assigned_to"].i();
+                int assigned_by = jsonData["assigned_by"].i();  // Senior Tester’s ID
 
-            string checkQuery = "SELECT * FROM users WHERE user_id = " + to_string(assigned_by);
-            if (mysql_query(db.conn, checkQuery.c_str()) != 0) {
-                return crow::response(500, mysql_error(db.conn));
-            }
+                string checkQuery = "SELECT * FROM users WHERE user_id = " + to_string(assigned_by);
+                if (mysql_query(db.conn, checkQuery.c_str()) != 0) {
+                    return crow::response(500, mysql_error(db.conn));
+                }
 
-            MYSQL_RES* assignRes = mysql_store_result(db.conn);
-            if (!assignRes || mysql_num_rows(assignRes) == 0) {
+                MYSQL_RES* assignRes = mysql_store_result(db.conn);
+                if (!assignRes || mysql_num_rows(assignRes) == 0) {
+                    mysql_free_result(assignRes);
+                    return crow::response(400, "Invalid assigned_by user ID");
+                }
                 mysql_free_result(assignRes);
-                return crow::response(400, "Invalid assigned_by user ID");
+
+                CROW_LOG_INFO << "Assigning bug " << bug_id
+                              << " to " << assignee_id
+                              << " by " << assigned_by;
+
+                string query =
+                    "INSERT INTO item_assign (description_id, assignee_id, assigned_by) VALUES (" +
+                    to_string(bug_id) + ", " + to_string(assignee_id) + ", " + to_string(assigned_by) + ");";
+
+                // Update the item_description status to 'committed'
+                string updateStatus =
+                    "UPDATE item_description SET item_status = 'committed' WHERE description_id = " + to_string(bug_id) + ";";
+                if (mysql_query(db.conn, updateStatus.c_str()) != 0) {
+                    return crow::response(500, string("Assigned, but failed to update status: ") + mysql_error(db.conn));
+                }
+
+                if (mysql_query(db.conn, query.c_str()) == 0) {
+                    return crow::response(200, "Bug assigned successfully.");
+                } else {
+                    return crow::response(500, mysql_error(db.conn));
+                }
             }
-            mysql_free_result(assignRes);
-
-            CROW_LOG_INFO << "Assigning bug " << bug_id 
-                          << " to " << assignee_id 
-                          << " by " << assigned_by;
-
-            string query = "INSERT INTO item_assign (description_id, assignee_id, assigned_by) VALUES (" +
-                           to_string(bug_id) + ", " + to_string(assignee_id) + ", " + to_string(assigned_by) + ");";
-
-            if (mysql_query(db.conn, query.c_str()) == 0) {
-                return crow::response(200, "Bug assigned successfully.");
-            } else {
-                return crow::response(500, mysql_error(db.conn));
-            }
-        });   
+        );
         
         CROW_ROUTE(app, "/api/assigned-to").methods("GET"_method)([&db](const crow::request& req){ //display the assigned-by to the seniordevelopers
             auto urlParams = crow::query_string(req.url_params);

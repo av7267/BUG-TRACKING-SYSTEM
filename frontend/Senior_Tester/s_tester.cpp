@@ -61,7 +61,8 @@ void SeniorTesterWindow::addFeature()
     QString item_type = model->index(row, 1).data().toString();
     QString item_status = model->index(row, 2).data().toString();
     QString feature_type = model->index(row, 3).data().toString();
-    QString description = model->index(row, 4).data().toString();
+    QString level = model->index(row,4).data().toString();
+    QString description = model->index(row, 5).data().toString();
 
     QDialog dialog(this);
     dialog.setWindowTitle("Edit Bug Details");
@@ -73,6 +74,7 @@ void SeniorTesterWindow::addFeature()
     editui.comboBox_featureType->setCurrentText(feature_type);
     editui.comboBox_itemStatus->setCurrentText(item_status);
     editui.lineEdit_description->setText(description);
+    editui.comboBox_level->setCurrentText(level);
 
     connect(editui.buttonBox, &QDialogButtonBox::accepted, &dialog, &QDialog::accept);
     connect(editui.buttonBox, &QDialogButtonBox::rejected, &dialog, &QDialog::reject);
@@ -84,6 +86,7 @@ void SeniorTesterWindow::addFeature()
         json["item_type"] = editui.lineEdit_type->text();
         json["item_status"] = editui.comboBox_itemStatus->currentText();
         json["description"] = editui.lineEdit_description->toPlainText();
+        json["level"] = editui.comboBox_level->currentText();
 
         qDebug() << "Sending Id:" << id;
         qDebug() << QJsonDocument(json).toJson(QJsonDocument::Indented);
@@ -258,6 +261,10 @@ void SeniorTesterWindow::assignBugs()
         }
 
         int descriptionId = id.toInt();  
+
+        qDebug() << "Assigning Bug ID:" << descriptionId
+                 << " to Dev ID:" << selectedDeveloperId
+                 << " by Tester ID:" << this->seniorTesterId;
 
         QJsonObject json;
         json["description_id"] = descriptionId;

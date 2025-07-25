@@ -56,14 +56,17 @@ void registrationwindow::handleregister() {
 
     connect(reply, &QNetworkReply::finished, this, [=]() {
         if (reply->error() == QNetworkReply::NoError) {
-            QString responseText = reply->readAll();
-            QMessageBox::information(this, "Success", responseText);
-            
+            QByteArray responseData = reply->readAll();
+            QJsonDocument jsonResponse = QJsonDocument::fromJson(responseData);
+            QJsonObject obj = jsonResponse.object();
+            int user_id = obj["user_id"].toInt();
+            QMessageBox::information(this, "Success", obj["message"].toString());
+
             QWidget *homeWindow = nullptr;
             if (role == "Senior Tester") {
-                homeWindow = new SeniorTesterWindow();
+                homeWindow = new SeniorTesterWindow(nullptr, user_id);
             } else if (role == "Senior Developer") {
-                homeWindow = new ActivityWindow(0); 
+                homeWindow = new ActivityWindow(user_id);
             }
 
             if (homeWindow) {

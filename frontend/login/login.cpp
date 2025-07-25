@@ -78,7 +78,7 @@ void LoginWindow::handleLogin() {
 
         QWidget *homePage = nullptr;
         if (role == "Senior Tester") {
-            homePage = new SeniorTesterWindow();
+            homePage = new SeniorTesterWindow(nullptr,user_id);
         } else if (role == "Senior Developer") {
             homePage = new ActivityWindow(user_id);
         }
